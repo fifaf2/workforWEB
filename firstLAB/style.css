@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #8CE668; 
+    font-family: 'Arial', sans-serif; 
+    overflow-x: hidden; /
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.menu {
+    background: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu a.active {
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-btn {
+    background: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.wallet-btn {
+    background: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.hero {
+    position: relative; 
+    height: 85vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+
+.content {
+    z-index: 10; 
+}
+
+.subtitle {
+    font-family: 'Titan One', cursive; 
+    font-size: 30px;
+    color: #1a1a1a;
+    margin-bottom: -10px;
+    text-shadow: 2px 2px 0px white;
+}
+
+
+
+.shop-btn {
+    background: #333;
+    color: white;
+    font-family: 'Titan One', cursive;
+    font-size: 20px;
+    padding: 15px 50px;
+    border: 3px solid white; 
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+
+
+.floating-obj, .character {
+    position: absolute;
+    pointer-events: none; 
+}
+
+.logo {
+    border: 2px solid rgba(0,0,0,0.1); 
+}
+.bull img { width: 50%; }
+
+.shirt {
+    top: 10%;
+    left: 20%;
+    transform: rotate(-20deg);
+    border: 2px solid rgba(0,0,0,0.1); 
+}
+
+
+.hat {
+    top: 15%;
+    right: 20%;
+    transform: rotate(20deg);
+}
+
+
+.bull {
+    bottom: 0;
+    left: 0;
+    width: 350px;
+}
+.bull img { width: 100%; }
+
+
+.miner {
+    bottom: 10%;
+    right: 10%;
+    width: 250px;
+}
+.miner img { width: 100%; }
