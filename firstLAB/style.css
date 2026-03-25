@@ -157,3 +157,91 @@ body {
     width: 250px;
 }
 .miner img { width: 100%; }
+
+
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.auth-card {
+    background: white;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.auth-card h1 {
+    font-family: 'Titan One', cursive;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.auth-card input[type="text"],
+.auth-card input[type="password"] {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 2px solid #eee;
+    border-radius: 15px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.auth-card input:focus {
+    border-color: #8CE668;
+}
+
+.auth-card .submit-btn {
+    background: #333;
+    color: white;
+    font-family: 'Titan One', cursive;
+    font-size: 18px;
+    padding: 12px 30px;
+    border: 3px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.auth-card .submit-btn:hover {
+    transform: scale(1.02);
+}
+
+.auth-card p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.auth-card a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.auth-card a:hover {
+    text-decoration: underline;
+}
+
+
+.agreement {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 15px;
+}
